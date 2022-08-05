@@ -15,12 +15,13 @@ python3 -m pytest --cov=application --cov-report=html
 
 ssh jenkins@prod-server <<EOF
 
-IF [ -d anime-app ]; then
- cd animelist && git pull origin main
+if [ -d anime-app ]; then
+    cd anime-app && git pull origin main
 else
     git clone https://github.com/Prakash214/animelist.git anime-app
     cd anime-app
 fi
+
 sudo apt install python3 python3-pip python3-venv  -y
 
 python3 -m venv venv
