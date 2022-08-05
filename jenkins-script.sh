@@ -7,7 +7,6 @@ wget https://chromedriver.storage.googleapis.com/${version}/chromedriver_linux64
 sudo unzip chromedriver_linux64.zip -d /usr/bin
 rm chromedriver_linux64.zip
 
-
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
