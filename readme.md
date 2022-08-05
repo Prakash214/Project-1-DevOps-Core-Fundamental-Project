@@ -3,7 +3,7 @@ The requirements of the project are as follows:
 A Trello board (or equivalent Kanban board tech) with full expansion on user stories, use cases and tasks needed to complete the project.
 It could also provide a record of any issues or risks that you facedcreating your project.
 ![image](https://user-images.githubusercontent.com/107952180/182995205-2c898f5a-0282-4e5b-afbe-3e1750c7028c.png)
-![image](https://user-images.githubusercontent.com/107952180/182995845-e6fb3f9a-34c2-4232-a736-427a2d95333a.png)
+![image](https://user-images.githubusercontent.com/107952180/182996402-468b04d5-5fed-425d-b8cb-fd206d342590.png)
 
 
 
