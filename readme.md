@@ -27,6 +27,10 @@ A functional CRUD application created in Python, following bestpractices and des
 Fully designed test suites for the application you are creating, as well as automated tests for validation of the application. You must provide high test coverage in your backend and provide consistent reports and evidence to support a TDD approach.
 A functioning front-end website and integrated API's, using Flask.
 
+
+![image](https://user-images.githubusercontent.com/107952180/183050637-f80a7bdf-7fe6-4550-833b-36c27981d143.png)
+
+
 Code fully integrated into a Version Control System using the Feature-Branch model which will subsequently be built through a CI server and deployed to a cloud-based virtual machine.
 
 ![image](https://user-images.githubusercontent.com/107952180/182995778-08b66df0-b808-4939-bfe3-44736aa25bcb.png)
