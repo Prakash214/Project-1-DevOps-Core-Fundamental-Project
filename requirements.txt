@@ -7,3 +7,4 @@ pytest
 pytest-cov
 flask_testing
 selenium == 3.141.0
+gunicorn
