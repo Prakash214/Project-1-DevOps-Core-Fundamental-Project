@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Animes</title>
+    </head>
+    <body style="background-color:rgb(141, 141, 141); font-family:calibri;">
+        <h1>Anime list</h1> <a href="{{ url_for('index') }}"> Home </a> | <a href="{{ url_for('add_new_anime') }}"> add anime </a>|
+        <a href="{{ url_for('add_user') }}"> add user </a> | <a href="{{ url_for('view_all_users') }}"> view users </a>| <a href="{{ url_for('view_all_animes') }}"> view anime list </a>
+        {% block body %}
+        {% endblock body %}
+    </body>
+</html>
+

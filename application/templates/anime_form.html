@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="Form">
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.anime_name.label }} {{ form.anime_name }}<br>
+        {{ form.anime_desc.label }} {{ form.anime_desc }}<br>
+        {{ form.released_date.label }}  {{ form.released_date }}<br>
+        {{ form.anime_status.label }} {{ form.anime_status }}<br>
+        {{ form.assigned_to.label }}  {{ form.assigned_to }}
+        <br>
+        {{ form.submit }}
+    </form>
+</div>
+<div>
+    {% if errors %}
+    {% for error in errors %}
+    <p style="color:red;">{{ error }}</p>
+    {% endfor %}
+    {% endif %}
+</div>
+{% endblock body %}

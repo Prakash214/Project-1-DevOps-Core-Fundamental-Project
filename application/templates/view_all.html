@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block body %}
+{{ user_string }}
+<h2>{{ entity }}</h2>
+{% for anime in animes %}
+{{ anime.__str__() }}  
+{% if entity == 'Anime' %}
+Added by: {{ anime.user.__str__() }}
+{% endif %}
+<br>
+{% endfor %}
+{% endblock body %}
+

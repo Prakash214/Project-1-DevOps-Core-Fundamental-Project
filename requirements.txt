@@ -1,0 +1,9 @@
+flask
+flask_sqlalchemy
+pymysql
+flask_wtf
+wtforms
+pytest
+pytest-cov
+flask_testing
+selenium == 3.141.0
